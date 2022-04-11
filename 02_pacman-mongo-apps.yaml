@@ -37,8 +37,7 @@ spec:
       serviceAccountName: pacman
       volumes:
       - name: mongodb-data
-        persistentVolumeClaim:
-          claimName: mongodb
+        emptyDir: {}
       containers:
       - name: mongodb-pacman
         image: centos/mongodb-36-centos7
