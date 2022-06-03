@@ -22,7 +22,7 @@ spec:
       serviceAccount: pacman
       serviceAccountName: pacman
       containers:
-      - image: marlonruiz/pacman-nodejs:6.0
+      - image: jowings/pacman-nodejs-app
         name: pacman-app
         env:
         - name: MONGO_SERVICE_HOST
