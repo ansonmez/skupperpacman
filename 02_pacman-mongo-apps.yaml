@@ -40,7 +40,7 @@ spec:
         emptyDir: {}
       containers:
       - name: mongodb-pacman
-        image: centos/mongodb-36-centos7
+        image: johnrazeur/arm-mongo
         env:
         - name: MONGODB_ADMIN_PASSWORD
           value: clyde
