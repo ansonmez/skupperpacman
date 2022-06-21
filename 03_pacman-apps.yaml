@@ -7,6 +7,9 @@ metadata:
   labels:
     app: pacman
   name: pacman
+  annotations:
+    skupper.io/address: adservice
+    skupper.io/port: 8080
 spec:
   replicas: 1
   selector:
