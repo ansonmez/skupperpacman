@@ -8,8 +8,8 @@ metadata:
     app: pacman
   name: pacman
   annotations:
-    skupper.io/address: "pacman"
-    skupper.io/port: "8080"
+    skupper.io/address: pacman
+    skupper.io/port: 8080
 spec:
   replicas: 1
   selector:
