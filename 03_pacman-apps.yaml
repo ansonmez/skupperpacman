@@ -9,7 +9,7 @@ metadata:
   name: pacman
   annotations:
     skupper.io/address: "pacman"
-    skupper.io/port: 8080
+    skupper.io/port: "8080"
 spec:
   replicas: 1
   selector:
@@ -18,6 +18,9 @@ spec:
   strategy: {}
   template:
     metadata:
+      annotations:
+        skupper.io/address: "pacman"
+        skupper.io/port: "8080"
       creationTimestamp: null
       labels:
         app: pacman
