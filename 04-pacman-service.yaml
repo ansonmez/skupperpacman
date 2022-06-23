@@ -6,7 +6,7 @@ metadata:
   name: pacman
   namespace: pacman
   annotations:
-    skupper.io/address: "pacman"
+    skupper.io/address: pacman
     skupper.io/port: "8080"
 spec:
   ports:
