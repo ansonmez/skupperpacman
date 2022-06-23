@@ -8,6 +8,7 @@ metadata:
   annotations:
     skupper.io/address: pacman
     skupper.io/port: "8080"
+    skupper.io/proxy: http
 spec:
   ports:
   - port: 8080
