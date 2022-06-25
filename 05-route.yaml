@@ -6,8 +6,6 @@ metadata:
   labels:
     app: pacman
 spec:
-  port:
-    targetPort: 8080
   to:
     kind: Service
     name: pacman
